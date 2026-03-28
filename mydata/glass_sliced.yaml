@@ -1,0 +1,16 @@
+
+#SAHI切图大小为3200*3200，overlap=0.2， 训练集和验证集都是切图之后的
+path: mydataset/boboli/boli_sliced  # dataset root dir
+train: images/train_images_3200_02  # 切图后且包含没有标签的背景图的训练集
+val: images/val_images_3200_02  # 切图后且包含没有标签的背景图的验证集
+#train: images_Nobackground/train_images_3200_02  # 切图后不包含没有标签的背景图的训练集
+#val: images_Nobackground/val_images_3200_02  # 切图后不包含没有标签的背景图的验证集
+test:  # test images (optional)
+
+# Classes
+names:
+  0: qipao
+  1: popipao
+  2: xiantiao
+ 
+
